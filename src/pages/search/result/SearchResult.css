@@ -1,0 +1,26 @@
+.search-result {
+  color: white;
+}
+
+.search-result-text {
+  margin-left: 10px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.search-result-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 10px 40px;
+}
+
+.search-result-item img {
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.search-result-item img:hover {
+  transform: scale(1.07);
+}
+

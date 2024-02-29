@@ -1,0 +1,24 @@
+.movie-detail {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.movie-text {
+  width: 45%;
+}
+
+.movie-title {
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom-style: solid;
+}
+
+.movie-info {
+  font-weight: 600;
+}
+
+.movie-video {
+  width: 50%;
+}

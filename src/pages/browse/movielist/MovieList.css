@@ -1,0 +1,24 @@
+.movie-list {
+  color: white;
+  margin-bottom: 60px;
+}
+
+.movie-list-category {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.movie-items-list {
+  display: flex;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.movie-item img {
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.movie-item img:hover {
+  transform: scale(1.07);
+}

@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 15px;
+  width: 98%;
+  z-index: 1;
+  transition: .3s;
+  top: 0;
+}
+
+.navbar-changed {
+  background-color: black;
+}
+
+.navbar-text {
+  color: red;
+  font-weight: 650;
+}
+
+.navbar a:link,
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active {
+  text-decoration: none;
+}
+
+.navbar-icon {
+  width: 30px;
+}
